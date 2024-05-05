@@ -1,0 +1,107 @@
+body {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #fff;
+    font-size: x-large;
+    position: fixed;
+    width: 95%;
+    padding: auto;
+    margin-bottom: 100px;
+    box-shadow:0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la navegación dentro del header */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+/* Estilo para la lista dentro de la navegación */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 20px;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #585656;
+    color: rgb(255, 255, 255);
+}
+
+header nav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#salchiTeam a {
+    float: left; 
+    margin-left: -570px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+footer {
+    margin-top: 100px; /* Espacio entre el contenido principal y el footer */
+    border-top: 1px solid #ccc; /* Borde superior de 1px sólido de color gris claro */
+    text-align: center;
+}
+
+section {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px; /* Espacio de 20px entre el texto y la imagen */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+section .content-container {
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en una fila */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+section p {
+    text-align: justify;
+    margin-right: 50px;
+    font-size: 1.2em;
+    flex: 1; /* Permite que el texto ocupe todo el espacio disponible */
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto; /* Cambiar la altura automáticamente según el ancho */
+    max-height: 400px; /* Altura máxima de la imagen */
+}
+
+
+section h1 {
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+

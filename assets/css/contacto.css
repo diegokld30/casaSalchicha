@@ -1,0 +1,179 @@
+body {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #fff;
+    font-size: x-large;
+    position: fixed;
+    width: 95%;
+    padding: auto;
+    margin-bottom: 100px;
+    box-shadow:0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la navegación dentro del header */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+/* Estilo para la lista dentro de la navegación */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 20px;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #585656;
+    color: rgb(255, 255, 255);
+}
+
+header nav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#salchiTeam a {
+    float: left; 
+    margin-left: -570px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 4fr 1fr; /* Divide el contenedor en dos columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las columnas */
+    padding: 20px;
+}
+
+section{    
+    justify-self: center;
+    width: fit-content; /* Hace que el ancho del section se ajuste al contenido */
+    padding: 20px;
+    text-align: justify;
+    box-shadow:0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.1);
+    display: flex; /* Utilizamos flexbox para alinear las imágenes en una fila */
+    gap: 10px; /* Espacio entre las imágenes */
+    border-radius: 20px;
+}
+
+aside {
+    display: flex; /* Usa flexbox para alinear la imagen */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+aside img {
+    max-width: 100%; /* Asegura que la imagen no sobrepase el ancho del aside */
+    height: auto;
+    border-radius: 10px;
+}
+.formulario {
+    width: 1000px; /* Ancho del formulario */
+    margin-right: 100px; /* Centra el formulario horizontalmente */
+    margin-left: 50px; 
+}
+
+.input-group {
+    margin-bottom: 20px; /* Espacio entre cada grupo de entrada */
+    width: 99.5%; /* Ancho del grupo de entrada */
+    gap: 20px; /* Espacio entre los elementos */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+
+
+.input-group label {
+    width: 30%; /* Ancho del label */
+    margin-right: 10px; /* Espacio entre el label y el input */
+    font-size: large; /* Tamaño de fuente del label */
+}
+
+
+
+.input-group-email input{
+    margin-bottom: 30px; /* Espacio entre cada grupo de entrada */
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    width: 91%; /* Ancho del grupo de entrada */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 10px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde */
+}
+.input-group-email label{
+    width: 30%; /* Ancho del label */
+    margin-right: 10px; /* Espacio entre el label y el input */
+    font-size: large; /* Tamaño de fuente del label */
+}
+.input-group-mensaje textarea{
+    margin-bottom: 30px; /* Espacio entre cada grupo de entrada */
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    width: 97%; /* Ancho del grupo de entrada */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 10px; /* Espacio interno */
+    height: 200px;
+    border: 1px solid #ccc; /* Borde */
+}
+.input-group-mensaje label{
+    width: 91%; /* Ancho del label */
+    margin-right: 10px; /* Espacio entre el label y el input */
+    font-size: large; /* Tamaño de fuente del label */
+}
+.input-group input{
+    width: 91%; /* Ancho del input o textarea */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 10px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde */
+}
+
+
+.boton-enviar {
+    width: 100%; /* Ancho del botón */
+    font-size: x-large; /* Tamaño de fuente del botón */
+    height: 56px; /* Altura del botón */
+    background-color: black; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    margin-top: 20px; /* Espacio superior */
+}
+
+
+
+.boton-enviar:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar por encima */
+}
+
+
+
+footer {
+    margin-top: 20px; /* Espacio entre el contenido principal y el footer */
+    border-top: 1px solid #ccc; /* Borde superior de 1px sólido de color gris claro */
+    text-align: center;
+}
